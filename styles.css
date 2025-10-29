@@ -90,9 +90,9 @@ body {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  margin-top: -175px;
-  min-height: 100vh;
-  padding-top: 96px; /* header space */
+  margin-top: -200px;
+  min-height: 150vh;
+  padding-top: 0px; /* header space */
   display: flex;
   align-items: center;
   background-color: #000;
@@ -356,4 +356,52 @@ body {
   .about-right {
     order: 1;
   }
+}
+
+/* ---------- Contact Section (Simplified) ---------- */
+.contact-section {
+  background-color: #000;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+
+.contact-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--card-shadow);
+  padding: 2rem 2rem 3rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-tagline {
+  color: var(--text-dim);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item h3 {
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.contact-item p a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-item p a:hover {
+  color: var(--accent);
 }
