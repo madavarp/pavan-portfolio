@@ -90,6 +90,7 @@ body {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
+  margin-top: -175px;
   min-height: 100vh;
   padding-top: 96px; /* header space */
   display: flex;
@@ -100,7 +101,7 @@ body {
 
 .hero-inner {
   position: relative;
-  width: 100%;
+  width: 150%;
   display: grid;
   grid-template-columns: 1fr minmax(320px, 480px);
   align-items: center;
@@ -138,14 +139,16 @@ body {
   position: relative;
   justify-self: end;
   max-width: 400px;
+  width: 130%;
 }
 .hero-image {
   display: block;
-  width: 100%;
+  width: 150%;
+  margin-left: -100px;
   height: auto;
   border-radius: var(--radius-lg);
   position: relative;
-  z-index: 2;
+  z-index: 100;
 }
 .hero-fade {
   position: absolute;
