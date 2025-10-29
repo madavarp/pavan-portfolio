@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pavan Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="site-header">
+    <div class="container nav-row">
+      <div class="logo">
+        <span class="logo-accent">Pavan</span><span class="logo-dot">.</span>
+      </div>
+
+      <nav class="main-nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">UI / UX Designer</p>
+        <h1 class="hero-headline">
+          Hi, I’m <span class="accent">Pavan</span><br />
+          Jen From Australia
+        </h1>
+        <p class="hero-sub">
+          I design clean, usable interfaces and build fast, modern web
+          experiences.
+        </p>
+      </div>
+
+      <div class="hero-image-wrap">
+        <img
+          src="hero-face.png"
+          alt="Pavan headshot"
+          class="hero-image"
+        />
+        <div class="hero-fade"></div>
+      </div>
+    </div>
+    <!-- subtle background grid / pattern if you want later -->
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-card-wrapper">
+    <div class="about-card container">
+      <div class="about-left">
+        <div class="about-photo">
+          <img src="about-face.jpg" alt="profile small" />
+        </div>
+      </div>
+
+      <div class="about-right">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh,
+          tincidunt sit amet sapien quis, elementum molestie tellus. Pellentesque
+          habitant morbi tristique senectus et netus et malesuada fames ac turpis
+          egestas.
+        </p>
+
+        <div class="about-tabs">
+          <button class="tab-btn active">Skills</button>
+          <button class="tab-btn">Experience</button>
+          <button class="tab-btn">Education</button>
+        </div>
+
+        <div class="tab-content">
+          <ul class="tab-list">
+            <li><span class="accent-bar"></span> UI / UX</li>
+            <li><span class="accent-bar"></span> Frontend Dev</li>
+            <li><span class="accent-bar"></span> Prototyping</li>
+            <li><span class="accent-bar"></span> Accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2 class="section-title center">My Services</h2>
+      <p class="section-sub center">
+        I help brands and teams turn ideas into beautiful, functional products.
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>UI / UX Design</h3>
+          <p>
+            Wireframes, user flows, and pixel-perfect interfaces focused on clarity
+            and conversion.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>
+            Responsive, fast websites using modern HTML, CSS, and JavaScript.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Brand & Visual</h3>
+          <p>
+            Consistent visual language across your product, socials, and pitch
+            decks.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Dashboards & Data</h3>
+          <p>
+            Clean dashboards and data visuals for decision-making and storytelling.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Prototyping & Testing</h3>
+          <p>
+            Interactive prototypes + user testing loops to validate before code.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Consulting</h3>
+          <p>
+            Product strategy, UX audits, and roadmap recommendations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
