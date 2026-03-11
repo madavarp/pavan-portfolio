@@ -23,8 +23,8 @@
       <nav class="main-nav">
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Expertise</a>
+        <a href="#portfolio">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -34,17 +34,20 @@
   <section id="home" class="hero">
     <div class="container hero-inner">
       <div class="hero-copy">
-          <p class="eyebrow">Software Engineer | Data-Driven Technologist</p>
-            <h1 class="hero-headline">
-              Hi, I’m <span class="accent">Pavan</span><br />
-              Kumar Madavaram
-            </h1>
-            <p class="hero-sub">
-              I design and deliver full-stack, cloud-hosted, and AI-integrated solutions that bridge analytics and engineering. 
-              Skilled in AWS, Node.js, Python, and Firestore — passionate about solving real-world challenges through scalable, data-driven software systems.
-          </p>
+        <p class="eyebrow">Software Engineer | AI Systems | Cloud & Data Platforms</p>
+        <h1 class="hero-headline">
+          Hi, I’m <span class="accent">Pavan</span><br />
+          Kumar Madavaram
+        </h1>
+        <p class="hero-sub">
+          I build data-driven applications, cloud-native platforms, and AI-enabled systems that solve real-world problems.
+          My experience spans full-stack development, backend APIs, AWS infrastructure, DevOps workflows, and technical leadership.
+        </p>
 
-
+        <div class="hero-cta">
+          <a href="#portfolio" class="primary-btn">View Projects</a>
+          <a href="#contact" class="secondary-btn">Let’s Connect</a>
+        </div>
       </div>
 
       <div class="hero-image-wrap">
@@ -56,109 +59,261 @@
         <div class="hero-fade"></div>
       </div>
     </div>
-    <!-- subtle background grid / pattern if you want later -->
   </section>
 
   <!-- ABOUT -->
   <section id="about" class="about-card-wrapper">
     <div class="about-card container">
+      
       <div class="about-left">
         <div class="about-photo">
-          <img src="about-face.jpg" alt="profile small" />
+          <img src="about-face.jpg" alt="Pavan profile photo" />
         </div>
       </div>
 
       <div class="about-right">
         <h2 class="section-title">About Me</h2>
+
         <p class="about-text">
-          I’m a Software Engineer and Data-Driven Technologist with experience leading development teams and building 
-          end-to-end applications that integrate cloud infrastructure, analytics, and automation. 
-          With a Master’s in Applied Computer Science from Grand Valley State University, I’ve delivered solutions 
-          using AWS, Node.js, Python, and Firestore that improve reliability, scalability, and user experience. 
-          I’m driven by a mission-focused approach — translating complex data and technical challenges into measurable impact.
+          I’m a Software Engineer with 6+ years of experience building scalable applications, backend systems, and cloud-native platforms.
+          I currently work at Grand Valley State University, where I contribute to the REP4FinLit initiative — an AI-enabled financial
+          education platform sponsored by Fifth Third Bank. My work includes designing APIs, building microservices, integrating AI workflows,
+          improving deployment reliability, and guiding teams through real-world engineering problems. I enjoy translating complex operational
+          and technical challenges into practical software solutions that create meaningful impact.
         </p>
 
+        <!-- TAB BUTTONS -->
         <div class="about-tabs">
-          <button class="tab-btn active">Skills</button>
-          <button class="tab-btn">Experience</button>
-          <button class="tab-btn">Education</button>
+          <button class="tab-btn active" data-tab="skills">Skills</button>
+          <button class="tab-btn" data-tab="experience">Experience</button>
+          <button class="tab-btn" data-tab="education">Education</button>
         </div>
 
-        <div class="tab-content">
-          <ul class="tab-list">
-            <li><span class="accent-bar"></span> Python | JavaScript | Node.js | React.js | HTML | CSS | React Native</li>
-            <li><span class="accent-bar"></span> AWS | Docker | Jenkins | GitHub Workflows | CI/CD Pipelines</li>
-            <li><span class="accent-bar"></span> Firestore | DynamoDB | MySQL | PostgreSQL</li>
-            <li><span class="accent-bar"></span> Pandas | NumPy | Tableau | Matplotlib | Seaborn</li>
-            <li><span class="accent-bar"></span> LangChain | LLMs | REST APIs | Resend API | Google Maps API</li>
-            <li><span class="accent-bar"></span> Agile Workflows | VS Code | Figma</li>
-          </ul>
+        <!-- TAB PANELS -->
+        <div class="tab-panels">
 
+          <!-- SKILLS PANEL -->
+          <div class="tab-panel active" id="skills">
+            <ul class="tab-list">
+              <li>
+                <span class="accent-bar"></span>
+                Python | Java | JavaScript | SQL | HTML | CSS
+              </li>
+              <li>
+                <span class="accent-bar"></span>
+                React | Node.js | Spring Boot | REST APIs | Microservices
+              </li>
+              <li>
+                <span class="accent-bar"></span>
+                AWS | Docker | Terraform | Jenkins | GitHub Actions | CI/CD
+              </li>
+              <li>
+                <span class="accent-bar"></span>
+                Firestore | DynamoDB | PostgreSQL | MySQL
+              </li>
+              <li>
+                <span class="accent-bar"></span>
+                LangChain | LLMs | Data Pipelines | AI-Enabled Applications
+              </li>
+              <li>
+                <span class="accent-bar"></span>
+                Agile Workflows | System Design | Technical Documentation | Mentorship
+              </li>
+            </ul>
+          </div>
+
+          <!-- EXPERIENCE PANEL -->
+          <div class="tab-panel" id="experience">
+            <ul class="exp-list">
+
+              <li class="exp-item">
+                <div class="exp-role">Software Engineer (Team Lead)</div>
+                <div class="exp-org">REP4FinLit — Grand Valley State University</div>
+                <div class="exp-dates">Feb 2025 – Present</div>
+                <div class="exp-desc">
+                  Leading development of a cloud-native financial education platform sponsored by Fifth Third Bank. Selected as
+                  Technical Team Lead based on engineering and problem-solving skills, mentoring undergraduate and graduate student
+                  engineers through real-world system design and development. Built scalable microservices, REST APIs, AI-enabled
+                  application features, and data workflows using AWS, Node.js, Firestore, and modern DevOps practices. Improved
+                  deployment reliability, observability, and release workflows while collaborating with stakeholders on product direction.
+                </div>
+              </li>
+
+              <li class="exp-item">
+                <div class="exp-role">Student Manager (Technology & Operations)</div>
+                <div class="exp-org">GVSU Surplus Store</div>
+                <div class="exp-dates">May 2023 – Dec 2024</div>
+                <div class="exp-desc">
+                  Led technology and operational improvements across inventory, workflow, and reporting processes. Built dashboards,
+                  improved automation, and introduced data-driven operational changes that increased transparency and helped improve
+                  sustainability and process efficiency across store operations.
+                </div>
+              </li>
+
+              <li class="exp-item">
+                <div class="exp-role">Software Engineer</div>
+                <div class="exp-org">Unified Softech Pvt Ltd</div>
+                <div class="exp-dates">Jul 2013 – Dec 2017</div>
+                <div class="exp-desc">
+                  Developed and maintained client-facing web applications and backend systems using Python, JavaScript, React, and SQL.
+                  Built and integrated REST APIs, supported production deployments, optimized application performance, and translated
+                  business requirements into scalable technical solutions. Contributed to reliable delivery through testing, documentation,
+                  troubleshooting, and cross-functional collaboration.
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- EDUCATION PANEL -->
+          <div class="tab-panel" id="education">
+            <ul class="edu-list">
+
+              <li class="edu-item">
+                <div class="edu-degree">Master of Applied Computer Science</div>
+                <div class="edu-org">Grand Valley State University — Allendale, MI</div>
+                <div class="edu-desc">
+                  Built projects across mobile development, geospatial data analysis, and full-stack web systems.<br><br>
+                  <strong>3+ Hours App:</strong> React Native application supporting surplus food redistribution through location and workflow integration.<br>
+                  <strong>Healthcare Facility Density Analysis (Nepal):</strong> Python-based data pipeline and geospatial analysis project identifying healthcare access disparities.<br>
+                  <strong>HandCrafted Haven:</strong> Full-stack e-commerce website using HTML, CSS, JavaScript, and Firebase.
+                </div>
+              </li>
+
+              <li class="edu-item">
+                <div class="edu-degree">Independent Study — UPSC Civil Services Preparation</div>
+                <div class="edu-desc">
+                  Intensive preparation in economics, governance, ethics, analysis, structured problem-solving, and communication. This phase
+                  played a major role in shaping my discipline, leadership approach, and ability to think through complex problems from multiple perspectives.
+                </div>
+              </li>
+
+            </ul>
+          </div>
 
         </div>
+
       </div>
+
     </div>
   </section>
 
-  <!-- SERVICES -->
+  <!-- EXPERTISE -->
   <section id="services" class="services-section">
     <div class="container">
-      <h2 class="section-title center">My Services</h2>
+      <h2 class="section-title center">Core Expertise</h2>
       <p class="section-sub center">
-        I help brands and teams turn ideas into beautiful, functional products.
+        I build modern software systems that combine engineering, cloud, data, and AI to solve practical problems.
       </p>
 
       <div class="services-grid">
         <div class="service-card">
-          <h3>Cloud & DevOps Engineering</h3>
+          <h3>Cloud-Native Engineering</h3>
           <p>
-            Migrated full-stack applications to AWS Amplify with Node.js backend and Firestore DB — improving scalability, uptime, and deployment workflows.
+            Designing and deploying scalable applications on AWS with a focus on maintainability, uptime, and production readiness.
           </p>
         </div>
 
         <div class="service-card">
-          <h3>Automation & Integration</h3>
+          <h3>Backend Systems & APIs</h3>
           <p>
-            Developed APIs and automated systems that reduced integration time by 30% and streamlined user engagement tracking through Resend API.
+            Building REST APIs, backend services, and microservices that support data-driven applications and real-time user workflows.
           </p>
         </div>
 
         <div class="service-card">
-          <h3>AI-Enabled Development</h3>
+          <h3>AI-Enabled Applications</h3>
           <p>
-            Designed and prototyped an AI Budgeting Chatbot using LangChain and LLMs to provide personalized financial guidance.
+            Prototyping and integrating chatbot-driven and LLM-enabled workflows to create more interactive and intelligent software experiences.
           </p>
         </div>
 
         <div class="service-card">
-          <h3>Data Engineering & Analytics</h3>
+          <h3>Data Pipelines & Analytics</h3>
           <p>
-            Built and optimized data pipelines and dashboards with Python, SQL, and Tableau to support insights-driven decision making.
+            Developing data workflows, reporting systems, and analytics processes that turn information into actionable insights.
           </p>
         </div>
 
         <div class="service-card">
-          <h3>Full-Stack Application Development</h3>
+          <h3>Full-Stack Development</h3>
           <p>
-            Delivered scalable applications integrating backend APIs, CI/CD pipelines, and front-end interfaces using React and Node.js.
+            Building end-to-end applications across frontend interfaces, backend services, database integration, and deployment workflows.
           </p>
         </div>
 
         <div class="service-card">
           <h3>Technical Leadership</h3>
           <p>
-            Guided teams in implementing cloud-based solutions, presenting updates to leadership, and collaborating with stakeholders to ensure system scalability and reliability.
+            Mentoring engineers, coordinating development efforts, and helping teams solve real-world software problems through practical engineering solutions.
           </p>
         </div>
       </div>
 
     </div>
   </section>
+
+  <!-- PROJECTS -->
+  <section id="portfolio" class="services-section">
+    <div class="container">
+      <h2 class="section-title center">Featured Projects</h2>
+      <p class="section-sub center">
+        A few examples of the systems and applications I’ve built across AI, cloud, and software engineering.
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>REP4FinLit Platform</h3>
+          <p>
+            AI-enabled financial education platform with scalable APIs, data workflows, and cloud-native backend services built to support
+            learning outcomes and user engagement.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Adventure Personality Quiz</h3>
+          <p>
+            Interactive quiz application with dynamic user flows, result generation logic, and backend integration for modern web-based experiences.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>3+ Hours Food App</h3>
+          <p>
+            Mobile application designed to help redistribute surplus food using React Native, user workflows, and location-based integration.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Healthcare Analysis (Nepal)</h3>
+          <p>
+            Python-based geospatial analytics project using data pipelines and visualization techniques to study healthcare accessibility patterns.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>HandCrafted Haven</h3>
+          <p>
+            Full-stack e-commerce web application with frontend development, backend integration, and product workflow support.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>AI Budgeting Chatbot Prototype</h3>
+          <p>
+            Prototype chatbot concept built with LangChain and LLM workflows to support personalized financial guidance and user interaction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
   <section id="contact" class="contact-section">
     <div class="container contact-card">
       <h2 class="section-title">Get in Touch</h2>
       <p class="contact-tagline">
-        Let’s connect for opportunities, collaborations, or data-driven ideas.
+        Open to software engineering, AI, cloud, and data-driven opportunities.
       </p>
 
       <div class="contact-info">
@@ -169,7 +324,7 @@
 
         <div class="contact-item">
           <h3>Email</h3>
-          <p><a href="mailto:madavarp@mail.gvsu.edu">madavarp@mail.gvsu.edu</a></p>
+          <p><a href="mailto:pavankumarm1707@gmail.com">pavankumarm1707@gmail.com</a></p>
         </div>
 
         <div class="contact-item">
@@ -180,6 +335,6 @@
     </div>
   </section>
 
-
+  <script src="tabs.js"></script>
 </body>
 </html>
