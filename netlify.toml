@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Permanently redirect the bare domain to the www primary domain
+[[redirects]]
+  from = "https://pavankumarmadavaram.com/*"
+  to = "https://www.pavankumarmadavaram.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://pavankumarmadavaram.com/*"
+  to = "https://www.pavankumarmadavaram.com/:splat"
+  status = 301
+  force = true
